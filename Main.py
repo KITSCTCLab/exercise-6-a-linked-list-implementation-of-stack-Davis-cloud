@@ -1,4 +1,7 @@
-
+class Node:
+  def __init__(self, data):
+    self.data = data
+    self.next = None
 
 
 class Stack:
@@ -43,4 +46,4 @@ for i in range(len(operations)):
     stack.push(int(data[i]))
   elif operations[i] == "pop":
     stack.pop()
-stack.status()
+
